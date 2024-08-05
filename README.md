@@ -17,12 +17,14 @@ A full-stack social media application with a React frontend and Node.js backend.
 - React
 - React Router
 - Create React App
+- React app is live on `https://social-app-two-bice.vercel.app/`
 
 ### Backend
 - Node.js
 - Express
 - MongoDB with Mongoose
 - JSON Web Tokens (JWT) for authentication
+- Server is live on `https://socialapp-oo8u.onrender.com`
 
 ## Getting Started
 
