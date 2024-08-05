@@ -1,0 +1,23 @@
+.comment {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-header {
+    margin-bottom: 8px;
+}
+
+.comment-username {
+    color: #007bff;
+    font-size: 14px;
+}
+
+.comment-content {
+    color: #343a40;
+    font-size: 16px;
+    line-height: 1.5;
+}

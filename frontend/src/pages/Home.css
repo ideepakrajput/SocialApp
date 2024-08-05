@@ -1,0 +1,90 @@
+.home-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.home-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 10%;
+}
+
+.home-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.home-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.login-button {
+    background-color: white;
+    color: #6e8efb;
+}
+
+.login-button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signup-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.signup-button:hover {
+    background-color: white;
+    color: #6e8efb;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-image {
+    flex: 1;
+    background-image: url('../logo.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+    }
+
+    .home-content {
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .home-image {
+        display: none;
+    }
+}
