@@ -35,7 +35,7 @@ A full-stack social media application with a React frontend and Node.js backend.
 ### Installation
 
 1. Clone the repository
-  - git clone https://github.com/your-username/social-media-platform.git
+  - git clone https://github.com/ideepakrajput/SocialApp.git
 2. Install backend dependencies
 - cd backend
 - npm install
